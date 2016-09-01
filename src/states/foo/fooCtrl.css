@@ -1,0 +1,13 @@
+.fooCtrl {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.fooCtrl h1{
+  font-size: 18px;
+  color: blue;
+}
+
+.footCtrl a{
+  font-size: 20px;
+}

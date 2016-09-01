@@ -1,0 +1,25 @@
+{
+  "name": "FIS3-angular-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.html",
+  "scripts": {
+    "npm": "npm install",
+    "clean": "rm -rf dist{,_dev}",
+    "dev": "npm run clean && fis3 release -f fis-conf.js -d . -w",
+    "build": "npm run clean && fis3 release prod -f fis-conf.js -d . --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Treri/fis3-angular-example"
+  },
+  "author": "Treri",
+  "license": "MIT",
+  "devDependencies": {
+    "fis-optimizer-html-minifier": "^0.0.9",
+    "fis3": "^3.4.1",
+    "fis3-hook-commonjs": "^0.1.19",
+    "fis3-postpackager-loader": "^1.4.4",
+    "fis3-postprocessor-autoprefixer": "^1.0.0"
+  }
+}
